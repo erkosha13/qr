@@ -1,0 +1,58 @@
+.about {
+    background-color: #E7E7E5;
+    max-height: 400px;
+    height: 100%;
+}
+
+.about__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 100%;
+}
+
+.about__container {
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    align-items: center;
+    padding: 50px;
+}
+
+.about_text {
+    max-width: 500px;
+}
+
+.about_img {
+    /* Ваши существующие стили */
+}
+
+.about_img img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.about_ttitle h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #595959;
+    max-width: 400px;
+    margin-bottom: 20px; /* Увеличение расстояния между заголовками */
+}
+
+.about__subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #595959;
+}
+
+
+
+

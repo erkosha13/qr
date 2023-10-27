@@ -1,0 +1,9 @@
+@import "./css/header.css";
+@import './css/start.css';
+@import './css/collection.css';
+@import './css/about.css';
+@import './css/drop.css';
+
+html {
+  scroll-behavior: smooth;
+}

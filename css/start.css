@@ -1,0 +1,50 @@
+.start__content {
+    position: relative;
+    height: 100vh;
+}
+
+.start__slider {
+    max-width: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 280px;
+    top: 338px;
+    z-index: 1;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.slider__cards {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__cards img {
+    width: 100%;
+    height: auto;
+}
+
+.slider__nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 95%;
+    transform: translateY(-50%);
+}
+
+.slider__nav span {
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
