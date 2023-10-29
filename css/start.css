@@ -47,4 +47,5 @@
     background-color: white;
     margin: 0 5px;
     cursor: pointer;
+    transition: background-color 0.5s ease;
 }

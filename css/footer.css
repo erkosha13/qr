@@ -1,0 +1,115 @@
+.footer__content {
+  background-color: #f2f2f2;
+  padding: 20px;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer_text {
+  max-width: 400px;
+  align-self: flex-end;
+}
+
+.footer_text p {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__legal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.footer__legal button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Стили модального окна */
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.5); /* Прозрачный фон - здесь a равно 0.5 для полупрозрачности */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 50%; /* Максимальная ширина модального окна */
+  text-align: justify;
+}
+
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

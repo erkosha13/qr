@@ -9,17 +9,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .drop__title {
   width: 300px;
-  height: 50px; /* Уменьшение высоты заголовка */
-  background-color: #e0e0e0;
+  height: 50px;
   text-align: center;
-  line-height: 0px; /* Уменьшение высоты строки */
+  line-height: 0px;
   margin: 50px 0 50px 0;
 }
 
+.drop__title h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #595959;
+}
 
 .drop__slider {
   display: flex;
@@ -28,13 +34,36 @@
 }
 
 .drop__slider__card {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
+  position: relative;
 }
 
 .drop__slider__card img {
   max-width: 300px;
   height: auto;
   object-fit: cover;
+}
+
+.drop__slider__card .prev,
+.drop__slider__card .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(241, 241, 241, 0.5);
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.drop__slider__card .prev {
+  left: 0;
+}
+
+.drop__slider__card .next {
+  right: 0;
 }
