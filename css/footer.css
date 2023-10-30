@@ -73,34 +73,38 @@
 
 /* Стили модального окна */
 
+
+
 .popup {
   display: none;
   position: fixed;
-  z-index: 1;
-  left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
   overflow: auto;
-  background-color: rgba(255, 255, 255, 0.5); /* Прозрачный фон - здесь a равно 0.5 для полупрозрачности */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup-content {
-  background-color: #fefefe;
-  margin: 15% auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
   padding: 20px;
-  border: 1px solid #888;
-  max-width: 50%; /* Максимальная ширина модального окна */
-  text-align: justify;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
 }
 
-
-
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 50px;
 }
 
 .close:hover,
@@ -110,6 +114,6 @@
   cursor: pointer;
 }
 
-.popup p{
+.popup p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

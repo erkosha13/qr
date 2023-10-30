@@ -95,48 +95,56 @@ for (i = 0; i < acc.length; i++) {
 //----------------------------------------------popup//
 
 function openModal() {
-  var modal = document.getElementById("myModal");
+  let modal = document.getElementById("myModal");
   modal.style.display = "block";
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
-  var modal = document.getElementById("myModal");
+  let modal = document.getElementById("myModal");
   modal.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 
 
 function openModal1() {
-  var modal = document.getElementById("myModal1");
+  let modal = document.getElementById("myModal1");
   modal.style.display = "block";
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal1() {
-  var modal = document.getElementById("myModal1");
+  let modal = document.getElementById("myModal1");
   modal.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 
 
 function openModal2() {
-  var modal = document.getElementById("myModal2");
+  let modal = document.getElementById("myModal2");
   modal.style.display = "block";
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal2() {
-  var modal = document.getElementById("myModal2");
+  let modal = document.getElementById("myModal2");
   modal.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 
 
 function openModal3() {
-  var modal = document.getElementById("myModal3");
+  let modal = document.getElementById("myModal3");
   modal.style.display = "block";
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal3() {
-  var modal = document.getElementById("myModal3");
+  let modal = document.getElementById("myModal3");
   modal.style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
